@@ -1,0 +1,115 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar Styling */
+nav ul {
+    list-style: none;
+    background-color: #333;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Introduction Section */
+#intro {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.intro-content {
+    text-align: center;
+}
+
+.animated-text {
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #ddd;
+    padding: 50px;
+}
+
+#skills h2 {
+    text-align: center;
+}
+
+#skills ul {
+    list-style: none;
+    text-align: center;
+}
+
+#skills ul li {
+    display: inline-block;
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #fff;
+    padding: 50px;
+}
+
+#projects h2 {
+    text-align: center;
+}
+
+.project-item {
+    margin: 20px 0;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f4f4f4;
+    padding: 50px;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact form label,
+#contact form input,
+#contact form textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+button {
+    display: block;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
